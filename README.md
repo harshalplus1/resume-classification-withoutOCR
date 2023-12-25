@@ -19,12 +19,13 @@ op.download("https://www.kaggle.com/datasets/pdavpoojan/the-rvlcdip-dataset-test
 
 The RVL-CDIP (Ryerson Vision Lab Complex Document Information Processing) dataset consists of 400,000 grayscale images in 16 classes, with 25,000 images per class. There are 320,000 training images, 40,000 validation images, and 40,000 test images. The images are sized so their largest dimension does not exceed 1000 pixels
 
-## References:
+## Code
 [Source Code](https://github.com/kaledhoshme123/Documents-Classification-Using-CNN/tree/main)
 
 Changes made in the source code:
 Train test split
 
+## References:
 Adam W. Harley, A. U. (2015). Evaluation of Deep Convolutional Nets for Document Image Classification and Retrieval. Toronto, Ontario: Ryerson University.
 
 The study, which was my main reference, includes the same process of dividing the document into four sections, but with a difference in how to collect the common features. PCA & Conca was used in the study, while it was used in the GlobalAveragePooling1D code.
