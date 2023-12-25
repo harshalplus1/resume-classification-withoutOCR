@@ -22,6 +22,9 @@ The RVL-CDIP (Ryerson Vision Lab Complex Document Information Processing) datase
 ## References:
 [Source Code](https://github.com/kaledhoshme123/Documents-Classification-Using-CNN/tree/main)
 
+Changes made in the source code:
+Train test split
+
 Adam W. Harley, A. U. (2015). Evaluation of Deep Convolutional Nets for Document Image Classification and Retrieval. Toronto, Ontario: Ryerson University.
 
 The study, which was my main reference, includes the same process of dividing the document into four sections, but with a difference in how to collect the common features. PCA & Conca was used in the study, while it was used in the GlobalAveragePooling1D code.
